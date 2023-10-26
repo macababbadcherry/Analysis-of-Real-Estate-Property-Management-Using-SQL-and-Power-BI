@@ -6,13 +6,10 @@ This repository features the real estate property management analysis. It includ
 ## Objectives
 The objectives are
 
-(1) to provide quick, high-level insights such as the average property price, the median number of bedrooms, etc,
-
-(2) to help users understand/to explore how property prices and property types vary across different states
-
-(3) to unveil correlations and patterns that aid users in comprehending which characteristics of a housing property most significantly impact prices
-
-(4) to provide insights into the historical development of the housing market and how renovations affect property values.
+1. to provide quick, high-level insights such as the average property price, the median number of bedrooms, etc,
+2. to help users understand/to explore how property prices and property types vary across different states
+3. to unveil correlations and patterns that aid users in comprehending which characteristics of a housing property most significantly impact prices
+4. to provide insights into the historical development of the housing market and how renovations affect property values.
 
 ## Dataset
 In this project, the dataset contains records on real state in the United States of America. It provides comprehensive information on the housing properties such as
