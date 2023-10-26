@@ -8,6 +8,9 @@ This repository features the real estate property management analysis. It includ
 - Objectives
 - Dataset
 - Data Preparation
+- Visualization
+- Analysis
+- COnclusion
 
 ## Introduction
 
