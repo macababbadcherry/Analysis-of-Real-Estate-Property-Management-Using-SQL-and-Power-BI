@@ -37,6 +37,9 @@ The data preparation phase began by importing the housing data, an Excel file, i
 ![Data Loaded in SQL Server](https://github.com/macababbadcherry/Analysis-of-Real-Estate-Property-Management-Using-SQL-and-Power-BI/assets/148540172/d9974921-2950-404c-af62-bf18cdf69e12)
 :*Figure 1: Data Loaded in SQL Server*:
 <center>Centered text</center>
+<div align="center">
+  my text here.
+</div>
 
 
 Data Cleaning: [Housing_DataPrep.sql](https://github.com/macababbadcherry/Analysis-of-Real-Estate-Property-Management-Using-SQL-and-Power-BI/blob/main/Housing_DataPrep.sql)
