@@ -3,6 +3,14 @@
 
 This repository features the real estate property management analysis. It includes data cleaning and analysis using SQL, as well as interactive visualization through Power BI.
 
+# Overview
+- Introduction
+- Objectives
+- Dataset
+- Data Preparation
+
+## Introduction
+
 ## Objectives
 The objectives are
 
