@@ -24,18 +24,24 @@ The objectives are
 ## 3. Preparation
 
 **_3.1 Dataset_** <br>
-The USA real estate dataset is available on Kaggle. In this project, the dataset contains records on real estate in the United States of America. It provides comprehensive information on the housing properties such as
--status (Housing status - a. ready for sale or b. ready to build)
-- bed (# of beds)
-- bath (# of bathrooms)
-- acre_lot (Property / Land size in acres)
+The USA real estate dataset is available on Kaggle. The dataset contains records on real estate in the United States of America. It provides comprehensive information on the housing properties such as
+- status (Housing status - ready for sale or ready to build)
+- bed (number of beds)
+- bath (number of bathrooms)
+- acre_lot (property / land size in acres)
 - city (city name)
 - state (state name)
 - zip_code (postal code of the area)
 - house_size (house area/size/living space in square feet)
-- prev_sold_date (Previously sold date)
-- price (Housing price, it is either the current listing price or recently sold price if the house is sold recently)
+- prev_sold_date (previously sold date)
+- price (housing price, it is either the current listing price or recently sold price if the house is sold recently)
 
+**_3.2 Acessibility & Sourcing_** <br>
+The  USA real estate dataset was published by Ahmed Shahriar Sakid on Kaggle where the data was collected from [Realtor.com](https://www.realtor.com/research/data)
+
+Therefore, the data may be copied, modified, distributed, even for commercial purposes, all without asking permission. Mobius sourced the data from Furberg, Robert; Brinton, Julia; Keating, Michael; and Ortiz, Alexa on Zenodo which was shared using a CC BY 4.0 license allowing the data to be reproduced, adapted, and shared. Link to source
+
+AHMED SHAHRIAR SAKIB
 
 ## Data Preparation
 The data preparation phase began by importing the housing data, an Excel file, into a SQL database. Several steps were conducted to ensure the suitability of the data for further processing and analysis. The process started by searching for duplicates and subsequently eliminated in a newly created table while preserving the original dataset as a backup. Removing unnecessary columns were also executed. In addressing the data constraints problem aside from the duplicates, the accuracy of the data type was also verified and ensured the data fell within the appropriate range. Now, we proceeded into looking for text and categorical data problems like inconsistent categories and formatting, length violation for text data and failure to adhere to proper naming conventions.
