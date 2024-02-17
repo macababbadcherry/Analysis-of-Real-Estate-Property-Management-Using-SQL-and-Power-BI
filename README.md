@@ -24,20 +24,18 @@ The objectives are
 ## 3. Preparation
 
 **_3.1 Dataset_** <br>
-The USA real estate dataset is available on Kaggle.
+The USA real estate dataset is available on Kaggle. In this project, the dataset contains records on real estate in the United States of America. It provides comprehensive information on the housing properties such as
+-status (Housing status - a. ready for sale or b. ready to build)
+- bed (# of beds)
+- bath (# of bathrooms)
+- acre_lot (Property / Land size in acres)
+- city (city name)
+- state (state name)
+- zip_code (postal code of the area)
+- house_size (house area/size/living space in square feet)
+- prev_sold_date (Previously sold date)
+- price (Housing price, it is either the current listing price or recently sold price if the house is sold recently)
 
-*S*
-
-In this project, the dataset contains records on real state in the United States of America. It provides comprehensive information on the housing properties such as
-- location, description
-- price of the building,
-- number of bedrooms,
-- property size in hectares,
-- number of floors,
-- waterfront status,
-- the condition and
-- grade of the building, and
-- the year the building was constructed and, if applicable, renovated.
 
 ## Data Preparation
 The data preparation phase began by importing the housing data, an Excel file, into a SQL database. Several steps were conducted to ensure the suitability of the data for further processing and analysis. The process started by searching for duplicates and subsequently eliminated in a newly created table while preserving the original dataset as a backup. Removing unnecessary columns were also executed. In addressing the data constraints problem aside from the duplicates, the accuracy of the data type was also verified and ensured the data fell within the appropriate range. Now, we proceeded into looking for text and categorical data problems like inconsistent categories and formatting, length violation for text data and failure to adhere to proper naming conventions.
