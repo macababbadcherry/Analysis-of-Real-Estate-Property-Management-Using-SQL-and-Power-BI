@@ -6,7 +6,7 @@ This repository features United States of America real estate listings analysis.
 # Overview
 1. Introduction
 2. Objectives
-3. Dataset
+3. Preparation
 4. Data Preparation
 5. Visualization
 6. Analysis
@@ -16,15 +16,18 @@ This repository features United States of America real estate listings analysis.
 
 ## 2. Objectives
 The objectives are
-
-1. to provide quick, high-level insights such as the average property price, the median number of bedrooms, etc,
-2. to help users understand/to explore how property prices and property types vary across different states
-3. to unveil correlations and patterns that aid users in comprehending which characteristics of a housing property most significantly impact prices
-4. to provide insights into the historical development of the housing market and how renovations affect property values.
+1.Can we predict housing prices based on the features?
+2. How are housing price and location attributes correlated?
+3. What is the overall picture of the USA housing prices w.r.t. locations?
+4. Do house attributes (bedroom, bathroom count) strongly correlate with the price? Are there any hidden patterns?
 
 ## 3. Preparation
 
 *3.1 Dataset**
+The USA real estate dataset is available on Kaggle.
+
+*S*
+
 In this project, the dataset contains records on real state in the United States of America. It provides comprehensive information on the housing properties such as
 - location, description
 - price of the building,
