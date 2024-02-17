@@ -1,4 +1,4 @@
-# Analysis-of-Real-Estate-Property-Management-Using-SQL-and-Power-BI
+# Analysis-of-Real-Estate-Property-Using-SQL-and-Power-BI
 **Status:** Ongoing 
 
 This repository features United States of America real estate listings analysis. It includes data cleaning and analysis using SQL, as well as interactive visualization through Power BI.
@@ -41,7 +41,8 @@ Ahmed Shahriar Sakid published the USA real estate dataset on Kaggle, collecting
 
 ## 4. Processing
 **_Importing Data into SQL_** <br>
-The dataset has 1 CSV file with 10 columns containing more than 1.4 million+ entries. Hence, I used Microsoft SQL Server to import such data.
+The dataset has 1 CSV file with 10 columns containing more than 1.4 million entries. Hence, I begain processing the data by importing it to Microsoft SQL Server  I've encountered an error: There is insufficient memory available in the buffer pool." and trouble shoot it with https://learn.microsoft.com/en-us/azure/azure-sql/database/troubleshoot-memory-errors-issues?view=azuresql. 
+
 The data preparation phase began by importing the housing data, an Excel file, into a SQL database. Several steps were conducted to ensure the suitability of the data for further processing and analysis. The process started by searching for duplicates and subsequently eliminated in a newly created table while preserving the original dataset as a backup. Removing unnecessary columns were also executed. In addressing the data constraints problem aside from the duplicates, the accuracy of the data type was also verified and ensured the data fell within the appropriate range. Now, we proceeded into looking for text and categorical data problems like inconsistent categories and formatting, length violation for text data and failure to adhere to proper naming conventions.
 
 **_Data Cleaning and Transformation_** <br>
