@@ -12,9 +12,9 @@ This repository features United States of America real estate listings analysis.
 6. Analysis
 7. Conclusion
 
-## Introduction
+## 1. Introduction
 
-## Objectives
+## 2. Objectives
 The objectives are
 
 1. to provide quick, high-level insights such as the average property price, the median number of bedrooms, etc,
@@ -22,7 +22,9 @@ The objectives are
 3. to unveil correlations and patterns that aid users in comprehending which characteristics of a housing property most significantly impact prices
 4. to provide insights into the historical development of the housing market and how renovations affect property values.
 
-## Dataset
+## 3. Preparation
+
+*3.1 Dataset**
 In this project, the dataset contains records on real state in the United States of America. It provides comprehensive information on the housing properties such as
 - location, description
 - price of the building,
