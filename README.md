@@ -23,7 +23,7 @@ The objectives are
 
 ## 3. Preparation
 
-*3.1 Dataset**
+*3.1 Dataset** 
 The USA real estate dataset is available on Kaggle.
 
 *S*
