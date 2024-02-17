@@ -4,13 +4,13 @@
 This repository features United States of America real estate listings analysis. It includes data cleaning and analysis using SQL, as well as interactive visualization through Power BI.
 
 # Overview
-1 Introduction
-2 Objectives
-3 Dataset
-4 Data Preparation
-5 Visualization
-6 Analysis
-7 COnclusion
+1. Introduction
+2. Objectives
+3. Dataset
+4. Data Preparation
+5. Visualization
+6. Analysis
+7. Conclusion
 
 ## Introduction
 
