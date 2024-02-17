@@ -16,11 +16,11 @@ This repository features United States of America real estate listings analysis.
 
 ## 2. Objectives
 The objectives are
-a. Can we predict housing prices based on the features?
-b. How are housing price and location attributes correlated?
-c. What is the overall picture of the USA housing prices w.r.t. locations?
-d. Do house attributes (bedroom, bathroom count) strongly correlate with the price? Are there any hidden patterns?
-e.
+* Can we predict housing prices based on the features?
+* How are housing price and location attributes correlated?
+* What is the overall picture of the USA housing prices w.r.t. locations?
+* Do house attributes (bedroom, bathroom count) strongly correlate with the price? Are there any hidden patterns?
+*
 ## 3. Preparation
 
 **_3.1 Dataset_** <br>
