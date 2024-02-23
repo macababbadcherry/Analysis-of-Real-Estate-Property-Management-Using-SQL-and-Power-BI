@@ -40,7 +40,7 @@ The USA real estate dataset is available on Kaggle. The dataset contains records
 Ahmed Shahriar Sakid published the USA real estate dataset on Kaggle, collecting data from [Realtor.com](https://www.realtor.com/research/data). Therefore, anyone utilizing this data in research, analysis, or other projects should attribute it to Realtor.com® Economic Research. If the data is used on digital properties like Github, it is recommended to include a link to their data library.
 
 ## 4. Processing
-**_4.1 Importing Data and Data Cleaning** <br>
+**_4.1 Importing Data and Data Cleaning_** <br>
 The dataset containing the 1 CSV file was imported into Microsoft SQL Server. The raw data is cleaned, filtered, and transformed into a suitable format for analysis using the aforementioned server.  This process may include several tasks such as joining tables, __aggregating data, and creating new variables based on the existing ones._
 
 **4.2 _Initial Analysis_** <br>
