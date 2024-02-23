@@ -15,7 +15,7 @@ This repository features United States of America real estate listings analysis.
 ## 1. Introduction
 
 ## 2. Objectives
-The general objective of this project is to gain a comprehensive understanding of the factors that affect housing prices in the United States. Specifically, we want to investigate questions
+The general objective of this project is to gain a comprehensive understanding of the factors that affect housing prices in the United States. Specifically, we want to investigate the following questions:
 * Can we predict housing prices based on the features?
 * How are housing price and location attributes correlated?
 * What is the overall picture of the USA housing prices w.r.t. locations?
@@ -40,19 +40,18 @@ The USA real estate dataset is available on Kaggle. The dataset contains records
 Ahmed Shahriar Sakid published the USA real estate dataset on Kaggle, collecting data from [Realtor.com](https://www.realtor.com/research/data). Therefore, anyone utilizing this data in research, analysis, or other projects should attribute it to Realtor.com® Economic Research. If the data is used on digital properties like Github, it is recommended to include a link to their data library.
 
 ## 4. Processing
-**_Importing Data into SQL_** <br>
-The dataset has 1 CSV file with 10 columns containing more than 1.4 million entries. Hence, I begain processing the data by importing it to Microsoft SQL Server 
+**_4.1 Importing Data and Data Cleaning** <br>
+The dataset containing the 1 CSV file was imported into Microsoft SQL Server. The raw data is cleaned, filtered, and transformed into a suitable format for analysis using the aforementioned server.  This process may include several tasks such as joining tables, __aggregating data, and creating new variables based on the existing ones._
 
-SQL (Structured Query Language) is used to clean, filter, and transform the raw data into a format suitable for analysis. This may involve tasks such as joining tables, aggregating data, handling missing values, and creating new calculated fields.
+**4.2 _Initial Analysis_** <br>
+SQL queries were utilized to extract initial insights from the data, with the aim of gaining a preliminary understanding of the real estate pricing. This involved analyzing data patterns and trends, such as identifying the price range for properties in different neighborhoods, types of properties that were in high demand, and factors that influenced the pricing.
 
-
-
- I've encountered an error: There is insufficient memory available in the buffer pool." and trouble shoot it with https://learn.microsoft.com/en-us/azure/azure-
-sql/database/troubleshoot-memory-errors-issues?view=azuresql. 
-
-
-
+link of the SQL: 
 ## 5. Visualization
+**_5.1 Connecting Microsoft Power BI to a Microsoft SQL Server Database_** <br>
+Importing of the data from the SQL database was established to Power BI to enable the creation of interactive visualizations and reports.
+
+**_5.2 Dashboard Creation:_** <br>
 ## 6. Analysis
 ## 7. Conclusion
 
@@ -62,10 +61,11 @@ The data preparation phase began by importing the housing data, an Excel file, i
 
 **_Data Cleaning and Transformation_** <br>
 
-
-
-
-
 *<p align="center"> ![Data Loaded in SQL Server](https://github.com/macababbadcherry/Analysis-of-Real-Estate-Property-Management-Using-SQL-and-Power-BI/assets/148540172/d9974921-2950-404c-af62-bf18cdf69e12) Figure 1: Data Loaded in SQL Server</p>*
 
 Data Preparation: [Housing_DataPrep.sql](https://github.com/macababbadcherry/Analysis-of-Real-Estate-Property-Management-Using-SQL-and-Power-BI/blob/main/Housing_DataPrep.sql)
+
+I've encountered an error: There is insufficient memory available in the buffer pool." and trouble shoot it with https://learn.microsoft.com/en-us/azure/azure-
+sql/database/troubleshoot-memory-errors-issues?view=azuresql. 
+
+SQL (Structured Query Language) is used to clean, filter, and transform the raw data into a format suitable for analysis. This may involve tasks such as joining tables, aggregating data, handling missing values, and creating new calculated fields.__
