@@ -49,7 +49,7 @@ SQL queries were utilized to extract initial insights from the data, with the ai
 link of the SQL: 
 ## 5. Visualization
 **_5.1 Connecting Microsoft Power BI to a Microsoft SQL Server Database_** <br>
-Importing of the data from the SQL database was established to Power BI to enable the creation of interactive visualizations and reports.
+Importing data from the SQL database was established to Power BI to enable the creation of interactive visualizations and reports.
 
 **_5.2 Dashboard Creation:_** <br>
 ## 6. Analysis
