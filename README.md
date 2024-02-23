@@ -15,12 +15,12 @@ This repository features United States of America real estate listings analysis.
 ## 1. Introduction
 
 ## 2. Objectives
-The objectives are
+The general objective of this project is to gain a comprehensive understanding of the factors that affect housing prices in the United States. Specifically, we want to investigate questions
 * Can we predict housing prices based on the features?
 * How are housing price and location attributes correlated?
 * What is the overall picture of the USA housing prices w.r.t. locations?
 * Do house attributes (bedroom, bathroom count) strongly correlate with the price? Are there any hidden patterns?
-*
+  
 ## 3. Preparation
 
 **_3.1 Dataset_** <br>
@@ -41,7 +41,15 @@ Ahmed Shahriar Sakid published the USA real estate dataset on Kaggle, collecting
 
 ## 4. Processing
 **_Importing Data into SQL_** <br>
-The dataset has 1 CSV file with 10 columns containing more than 1.4 million entries. Hence, I begain processing the data by importing it to Microsoft SQL Server  I've encountered an error: There is insufficient memory available in the buffer pool." and trouble shoot it with https://learn.microsoft.com/en-us/azure/azure-sql/database/troubleshoot-memory-errors-issues?view=azuresql. 
+The dataset has 1 CSV file with 10 columns containing more than 1.4 million entries. Hence, I begain processing the data by importing it to Microsoft SQL Server 
+
+SQL (Structured Query Language) is used to clean, filter, and transform the raw data into a format suitable for analysis. This may involve tasks such as joining tables, aggregating data, handling missing values, and creating new calculated fields.
+
+
+
+ I've encountered an error: There is insufficient memory available in the buffer pool." and trouble shoot it with https://learn.microsoft.com/en-us/azure/azure-
+sql/database/troubleshoot-memory-errors-issues?view=azuresql. 
+
 
 
 ## 5. Visualization
